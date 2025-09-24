@@ -16,6 +16,6 @@ export function generateReport(data: DataItem[]): string {
     `Errores: ${errors}`,
   ].join('\n');
 
-  console.log(report); // Para ver el resultado en consola
+  console.log(report); // Para ver el resultado en la consola
   return report;
 }
